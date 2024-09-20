@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+@font-face{
+    font-family: b;
+    src: url('./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\)\ \(1\).ttf');
+}
+@font-face{
+    font-family: a;
+    src: url('./jost-variable.ttf');
+}
+@font-face{
+    font-family: c;
+    src: url('./KFOmCnqEu92Fr1Mu4mxK\ \(1\)\ \(4\).ttf');
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1 nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    height: 10vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+
+#page1>nav>img{
+    width: 9%;
+}
+
+#right-nav>button{
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: rgb(60, 60, 238);
+    border: 2px solid #fff;
+    font-family: a;
+    margin: 10px;
+}
+.bottom{
+    font-family: a;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    height: 32vh;
+    width: 40vw;
+    /* background-color: red; */
+}
+
+.bottom>h1{
+    color: #fff;
+    font-family: c;
+    font-size: 5vw;
+    font-weight: 75;
+    line-height: 1;
+}
+
+.bottom-page1-inner{
+    color: #fff;
+    font-style: normal;
+    position: absolute;
+    bottom: 0%;
+    height: 30%;
+    width: 100%;
+    /* background-color: magenta;   */
+}
+
+.bottom-page1-inner{
+    font-size: 25px;
+    font-weight: 25;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0px 10px;
+}
+
+.bottom-page1-inner>button{
+    margin-left: 200px;
+    font-size: 18px;
+    font-family: b;
+    border: 3px solid rgb(60, 60, 238);
+    padding: 10px 15px;
+    border: none;
+    border-radius: #fff;
+    color: rgb(60, 60, 238);
+    font-weight: 900;
+    border-radius: 50px;
+}
+
+#page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2157f7;
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+}
+
+#page2>h2{
+    margin-bottom: 2vw;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+#page2>h1{
+    width: 90%;
+    line-height: 1.5;
+    font-size: 4vw;
+    font-weight: 100;
+    color: #ffffff51;
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2157f7; 
+}
